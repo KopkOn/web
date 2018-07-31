@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+} 
+
+body {
+	background-color: #f6f6f6;
+	height: 100vh;
+}
+
+.container {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	max-height: 1000px;
+	width: 70%;
+	background-color: #fff;
+	border: 1px solid #d7d7d7;
+}
+
+.img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 44%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	padding-left: 8%;
+}
+
+img {
+	width: 100%;
+}
+
+.content {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	padding-left: 10%;
+	padding-right: 5%;
+}
+
+h1 {
+	font-family: ArialBold;
+	margin-bottom: 10%;
+	margin-top: 20%;
+	font-size: 23px;
+	font-weight: 700;
+}
+
+.text {
+	font-family: ArialRegular;
+	margin-bottom: 10%;
+	font-size: 15px;
+}
+
+.price {
+	font-family: ArialRegular;
+	margin-bottom: 10%;
+	font-size: 15px;
+}
+ 
+.value {
+	display: block;
+	font-family: ArialRegular;
+	margin-bottom: 10%;
+	font-size: 30px;
+}
+
+button {
+	display: inline-block;
+	font-family: ArialRegular;
+	font-size: 19px;
+	cursor: pointer;  /*Пальчик*/
+	outline: none; /*Обводка*/
+  color: #fff;
+  text-decoration: none;
+  background-color: #ec744a;
+  padding: .7em 1.5em;
+	margin-bottom: 25%;
+	border: 0;
+} 
+
+button:hover { background-color: #d35400}

@@ -1,0 +1,50 @@
+$dark: #131313
+$gray: #666666
+$white: #ffffff
+.footer
+	margin-top: 60px
+	bacgroung-color: $dark
+	padding: 590px 0
+	color: $gray
+	&-policy-link
+		font-style: 12px
+	p
+		margin-bottom: 14px
+	a
+		color: $gray
+		text-decoration: none
+		&:hover
+			color: $white
+	small
+		display: block
+		margin-top: 56px
+		line-height: 16
+		font-size: 10px
+		min-width: 80%
+	ul
+		padding: 0
+		list-style: none
+		& li
+			line-height: 32px
+	&-contacts,&-social-links
+		text-align: right
+	&-contacts_phone
+		font-weight: 400
+		font-size: 20px
+		color: #009adf
+	&-social-links
+		li
+			display: inline-block
+			a
+				display: inline-block
+				width: 42px
+				height: 42px
+				bacgroung-color: transparentize($white,0.9)
+				text-align: center
+				border-radius: 50%
+				line-height: 42px
+				margin-left: 10px
+				transition: all 0.2s
+				&:hover
+					bacgroung-color: transparentize($white,0.1)
+					color: $dark

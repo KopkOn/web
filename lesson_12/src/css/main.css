@@ -1,0 +1,105 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+.button {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto', 'sans-serif';
+  background-color: #ff9d00;
+  color: #fff;
+  padding: 13px 22px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none; }
+  .button img {
+    vertical-align: middle;
+    margin-right: 7px; }
+
+button:focus {
+  outline: none; }
+
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.header-contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid кув; }
+
+.header-contacts__phone {
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 27px;
+  margin-left: -13px; }
+
+a {
+  text-decoration: none;
+  color: #373737; }
+
+.border {
+  border-right: 1px solid #cfcfd0;
+  padding-right: 13px; }
+
+.main {
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 60px;
+  background: #373737 url(../img/main/main-bg.jpg) center no-repeat;
+  color: #fff;
+  z-index: 1; }
+  .main::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0; }
+
+.main-img {
+  position: relative; }
+  .main-img::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 310px;
+    height: 310px;
+    left: 50%;
+    margin-top: -4px;
+    margin-left: -120px;
+    border: 1px solid #fff;
+    border-radius: 50%; }
+  .main-img::after {
+    display: block;
+    content: url(../img/main/main-icon.png);
+    position: absolute;
+    z-index: 0;
+    width: 60px;
+    height: 50px;
+    left: 17%;
+    top: 86.3%; }
+
+.main-text__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 41px;
+  font-weight: 400; }
+
+.main-text__subtitle {
+  font-size: 28px;
+  font-weight: 300; }
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 968px; } }

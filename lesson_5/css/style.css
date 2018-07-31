@@ -1,0 +1,145 @@
+* {
+	font-family: Tahoma;
+	border: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+/*Первый блок*/
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	padding-top: 77px;
+	padding-bottom: 96px;
+}
+
+.header-img {
+	vertical-align: middle;
+	display: inline-block;
+	width: 43%;
+}
+
+.header-text {
+	vertical-align: middle;
+	display: inline-block;
+	width: 56%;
+}
+
+.header-text__title {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.header-text__subtitle {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+.header-text__deskr {
+	max-width: 530px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	margin-bottom: 47px;
+}
+
+.header-text__price {
+	color: #313131;
+	font-size: 48px;
+	font-weight: 400;
+	margin-bottom: 51px;
+}
+
+.button {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 22px 43px;
+	border-radius: 5px;
+	background-color: #f05a22;
+	border: 2px solid transparent;
+}
+
+.button-o {
+	color: #f05a22;
+	background-color: transparent;
+	border: 2px solid #f05a22;
+	margin-left: 37px;
+}
+
+/*Второй блок*/
+.features {
+	background-color: #f2f2f2;
+	padding-top: 91px;
+	padding-bottom: 100px;
+	margin-top: 100px;	
+}
+
+.features-wrap::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.section-title {
+	color: #333333;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.features-block {
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+
+.features-block__img {
+	min-height: 50px;
+	margin-bottom: 23px;
+}
+
+.features-block__text {
+	color: #333333;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+/*Третий блок*/
+.users-title {
+	margin-bottom: 100px;
+}
+
+.users__img {
+	width: 25%;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.crop img {
+    object-fit: cover;
+    width: 261px;
+    height: 261px;
+}
+
+.users::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.users {
+	padding-top: 87px;
+	padding-bottom: 55px;
+}

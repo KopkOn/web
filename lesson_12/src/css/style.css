@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+.button {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', 'sans-serif';
+  background-color: #ff9d00;
+  color: #fff;
+  padding: 13px 22px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none; }
+  .button img {
+    vertical-align: middle;
+    margin-right: 7px; }
+
+button:focus {
+  outline: none; }
+
+button:hover {
+  background-color: #ffad29; }
+
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .header-contacts {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid РєСѓРІ; }
+    .header-contacts__phone {
+      font-size: 22px;
+      font-weight: 400;
+      margin-right: 27px;
+      margin-left: -13px; }
+
+a {
+  text-decoration: none;
+  color: #373737; }
+
+a:hover {
+  color: #ff9d00; }
+
+.border {
+  border-right: 1px solid #cfcfd0;
+  padding-right: 13px; }
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 968px; } }
